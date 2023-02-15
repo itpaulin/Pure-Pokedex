@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./favicons/favicon-16x16.png">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicons/favicon-16x16.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./script/main.js"></script>
     <title>Pokedex</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <div>
-            <img src="" alt="pokemon" class="pokemon-image">
+      <div>
+        <img src="./images/155.png" alt="pokemon" class="pokemon-image" />
+      </div>
+
+      <h1 class="pokemon-data">
+        <span class="pokemon-number">6 -</span>
+        <span class="pokemon-name">cyndaquil</span>
+      </h1>
+
+      <div>
+        <form class="form">
+          <input
+            type="search"
+            class="input-search"
+            placeholder="Name or Number"
+            required
+          />
+        </form>
+
+        <div class="buttons">
+          <button class="button btn-prev">Prev &lt;</button>
+          <button class="button btn-next">Next &gt;</button>
         </div>
+      </div>
 
-
-        <h1 class="pokemon-data">
-            <span class="pokemon-number">6</span>
-            <span class="pokemon-name">cindaquiu</span>
-        </h1>
-
-        <div>
-            <form class="form">
-                <input type="search" class="input-search" placeholder="Name or Number" required />
-
-            </form>
-
-            <div class="buttons">
-                <button class="button btn-prev">Prev &lt;</button>
-                <button class="button btn-next">Next</button>
-            </div>
-        </div>
-
-        <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
-
+      <img src="./images/pokedex.png" alt="pokedex" class="pokedex" />
     </main>
-</body>
-
+  </body>
 </html>
